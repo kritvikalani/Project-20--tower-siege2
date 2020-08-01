@@ -4,7 +4,7 @@ class Polygon{
             isStatic: false,
             restitution: 0.5,
             friction: 1.0,
-            stffness: 0.04,
+            stiffness: 0.04,
             density: 1.0
         }
     this.body= Bodies.circle(x,y,radius,options);
