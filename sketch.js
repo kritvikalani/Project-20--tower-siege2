@@ -13,7 +13,7 @@ function setup() {
 
   stand= new Ground(390,380,200,20);
 
-  polygon= new Polygon(200,100,10)
+  polygon= new Polygon(200,100,5)
 
   sling= new SlingShot(polygon.body, {x: 100, y:300})
 
